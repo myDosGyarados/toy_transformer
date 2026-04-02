@@ -1,4 +1,4 @@
-3. 이 코드가 하는 일
+<h1> 이 코드가 하는 일 </h1>
 1) 문자 단위 vocabulary 생성
 
 문장을 글자 단위로 쪼개서 숫자로 바꿔.
@@ -101,7 +101,7 @@ self.lm_head = nn.Linear(n_embed, vocab_size)
 
 즉 현재 hidden state를 vocabulary 크기만큼의 점수로 바꾸는 거야.
 
-4. 왜 이게 toy transformer냐
+<h1> 왜 이게 toy transformer냐 </h1>
 
 이건 transformer의 핵심은 다 있지만, 실제 LLM과 비교하면 아주 단순화된 버전이야.
 
